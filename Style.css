@@ -38,6 +38,15 @@ p {
     color: rgb(3, 3, 3);
 }
 
+.titulo2 {
+    background-color: rgb(51, 49, 124);
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(40, 40, 204);
+    height: 30px;
+    margin: 10px auto;
+}
+
 body{
     background-color: rgb(226, 236, 236);
 }
@@ -193,7 +202,7 @@ form.rowg-3needs-validation {
 }
 
 .TABLAELASTIZADOS {
-    margin: 100px auto;
+    margin: 50px auto;
     width: 600px;
     background-color: beige;
     text-align: center;
@@ -214,7 +223,7 @@ form.rowg-3needs-validation {
 }
 
 .tablarigido {
-    margin: 100px auto;
+    margin: 50px auto;
     width: 600px;
     background-color: beige;
     text-align: center;
@@ -224,8 +233,11 @@ form.rowg-3needs-validation {
     padding: 4px;
 }
 .tablarigido th {
-    background-color: rgb(26, 26, 126);
+    background-color: rgb(4, 4, 12);
     border-bottom: 4px solid black;
     color: white;
     padding: 5px;
+}
+.tablarigido tr:nth-child(even){
+    background-color: rgb(173, 233, 213);
 }
