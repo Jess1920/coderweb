@@ -113,6 +113,8 @@ footer nav {
     padding: 40px 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1500px auto;
 }
 
 footer nav ul li a {
@@ -185,9 +187,9 @@ footer img {
 .carousel-inner {
    height: 100%;
    left: 5%;
-   top: 0%;
+   top: 10%;
    padding: 10px 10px;
-   width: 1200px;
+   width: 1250px;
 }
 
 form.rowg-3needs-validation {
